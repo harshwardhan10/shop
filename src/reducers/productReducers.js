@@ -4,7 +4,7 @@ const {
   ORDER_PRODUCTS_BY_PRICE,
 } = require("../types");
 
-export const productsReducers = (state = {}, action) => {
+export const productsReducer = (state = {}, action) => {
   switch (action.type) {
     case FILTER_PRODUCTS_BY_SIZE:
       return {
